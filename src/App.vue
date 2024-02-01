@@ -12,4 +12,11 @@ export default {
     <AppHeader />
 </template>
 
-<style></style>
+<style>
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+</style>
