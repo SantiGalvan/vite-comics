@@ -25,4 +25,12 @@ export default {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
 </style>
