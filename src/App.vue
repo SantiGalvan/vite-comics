@@ -10,6 +10,7 @@ export default {
 
 <template>
     <AppHeader />
+    <!-- Main WIP -->
 </template>
 
 <style>
