@@ -21,6 +21,10 @@ export default {
 }
 
 /* Generics */
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
