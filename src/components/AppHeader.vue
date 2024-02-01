@@ -63,8 +63,14 @@ export default {
     <header>
         <div class="container header-elements">
             <figure>
+                <a href="#">
+                    <img src="../assets/img/dc-logo.png" alt="Logo DC">
+                </a>
             </figure>
             <nav>
+                <ul>
+                    <li v-for="(link, i) in links" :key="i"><a :href="`${link.url}`">{{ link.text }}</a></li>
+                </ul>
             </nav>
         </div>
     </header>
