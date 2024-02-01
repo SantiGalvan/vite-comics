@@ -13,6 +13,7 @@ export default {
 <template>
     <AppHeader />
     <AppMain />
+    <!-- Footer WIP -->
 </template>
 
 <style>
