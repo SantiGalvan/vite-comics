@@ -6,12 +6,14 @@ export default {
 
 <template>
     <footer>
-        <div class="container">
-            <div class="upper-footer">
+        <div class="upper-footer">
+            <div class="container">
                 <nav></nav>
                 <figure></figure>
             </div>
-            <div class="bottom-footer">
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
                 <div class="actions"></div>
                 <div class="follow"></div>
             </div>
