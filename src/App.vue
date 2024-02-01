@@ -1,9 +1,15 @@
 <script>
+import AppHeader from './components/AppHeader.vue'
 export default {
     name: 'AppComics',
+    components: {
+        AppHeader
+    }
 };
 </script>
 
-<template></template>
+<template>
+    <AppHeader />
+</template>
 
 <style></style>
