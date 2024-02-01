@@ -4,6 +4,28 @@ export default {
 }
 </script>
 
-<template></template>
+<template>
+    <main>
 
-<style></style>
+        <!-- Section Content -->
+        <section id="section-content" class="container">
+            <h2> Content goes here </h2>
+        </section>
+    </main>
+</template>
+
+<style scoped>
+main {
+    background-color: black;
+}
+
+#section-content {
+    text-align: center;
+    height: 150px;
+}
+
+h2 {
+    color: #fff;
+    line-height: 150px;
+}
+</style>
