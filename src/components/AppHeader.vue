@@ -86,12 +86,14 @@ export default {
 }
 
 nav,
-ul {
+ul,
+li {
     height: 100%;
 }
 
-li a {
+a {
     color: black;
+    height: 100%;
 }
 
 .header-list {
@@ -102,7 +104,28 @@ li a {
     font-size: 0.9rem;
 }
 
+.header-list li a {
+    display: flex;
+    align-items: center;
+}
+
 img {
     height: 80px;
+}
+
+.active {
+    border-bottom: 4px solid #0282f9;
+}
+
+.active a {
+    color: #0282f9;
+}
+
+li:hover {
+    border-bottom: 4px solid #0282f9;
+}
+
+li:hover a {
+    color: #0282f9;
 }
 </style>
