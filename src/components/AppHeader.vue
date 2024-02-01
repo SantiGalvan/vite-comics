@@ -68,7 +68,7 @@ export default {
                 </a>
             </figure>
             <nav>
-                <ul>
+                <ul class="header-list">
                     <li v-for="(link, i) in links" :key="i"><a :href="`${link.url}`">{{ link.text }}</a></li>
                 </ul>
             </nav>
@@ -77,15 +77,32 @@ export default {
 </template>
 
 <style scoped>
-header {
-    background-color: goldenrod;
-}
-
 .header-elements {
-    height: 150px;
+    height: 120px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav,
+ul {
+    height: 100%;
+}
+
+li a {
+    color: black;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+img {
+    height: 80px;
 }
 </style>
