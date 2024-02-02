@@ -59,7 +59,26 @@ export default {
         <div class="bottom-footer">
             <div class="container footer-container">
                 <div class="actions"></div>
-                <div class="follow"></div>
+                <div class="follow">
+                    <h2>Follow us</h2>
+                    <figure>
+                        <a href="">
+                            <img src="../assets/img/footer-facebook.png" alt="Facebook">
+                        </a>
+                        <a href="">
+                            <img src="../assets/img/footer-twitter.png" alt="Twitter">
+                        </a>
+                        <a href="">
+                            <img src="../assets/img/footer-youtube.png" alt="YouTube">
+                        </a>
+                        <a href="">
+                            <img src="../assets/img/footer-pinterest.png" alt="Pinterest">
+                        </a>
+                        <a href="">
+                            <img src="../assets/img/footer-periscope.png" alt="Periscope">
+                        </a>
+                    </figure>
+                </div>
             </div>
         </div>
     </footer>
@@ -73,7 +92,6 @@ export default {
 }
 
 .bottom-footer {
-    min-height: 100px;
     background-color: #303030;
 }
 
@@ -113,5 +131,19 @@ h4 {
 
     flex-basis: 50%;
     align-self: stretch;
+}
+
+.follow {
+    height: 100px;
+    color: #0282f9;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+figure img {
+    margin: 0 10px;
 }
 </style>
