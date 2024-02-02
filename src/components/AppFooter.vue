@@ -62,19 +62,19 @@ export default {
                 <div class="follow">
                     <h2>Follow us</h2>
                     <figure>
-                        <a href="">
+                        <a href="https://www.facebook.com/?locale=it_IT" target="_blank">
                             <img src="../assets/img/footer-facebook.png" alt="Facebook">
                         </a>
-                        <a href="">
+                        <a href="https://twitter.com/?lang=it" target="_blank">
                             <img src="../assets/img/footer-twitter.png" alt="Twitter">
                         </a>
-                        <a href="">
+                        <a href="https://www.youtube.com/" target="_blank">
                             <img src="../assets/img/footer-youtube.png" alt="YouTube">
                         </a>
-                        <a href="">
+                        <a href="https://www.pinterest.it/" target="_blank">
                             <img src="../assets/img/footer-pinterest.png" alt="Pinterest">
                         </a>
-                        <a href="">
+                        <a href="https://www.pscp.tv/" target="_blank">
                             <img src="../assets/img/footer-periscope.png" alt="Periscope">
                         </a>
                     </figure>
