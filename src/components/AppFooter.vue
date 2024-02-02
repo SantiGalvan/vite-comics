@@ -144,12 +144,14 @@ h4 {
 button {
     padding: 10px 15px;
     background-color: transparent;
-    border-color: #0282f9;
+    border: 2px solid #0282f9;
     text-transform: uppercase;
     color: #fff;
     font-size: 1.1rem;
     cursor: pointer;
 }
+
+.button:active {}
 
 .follow {
     min-height: 100px;
