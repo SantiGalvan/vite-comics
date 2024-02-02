@@ -58,7 +58,9 @@ export default {
         </div>
         <div class="bottom-footer">
             <div class="container footer-container">
-                <div class="actions"></div>
+                <div class="actions">
+                    <button>Sign-up now!</button>
+                </div>
                 <div class="follow">
                     <h2>Follow us</h2>
                     <figure>
@@ -133,8 +135,24 @@ h4 {
     align-self: stretch;
 }
 
+.actions {
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: #0282f9;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
 .follow {
-    height: 100px;
+    min-height: 100px;
     color: #0282f9;
     text-transform: uppercase;
 
