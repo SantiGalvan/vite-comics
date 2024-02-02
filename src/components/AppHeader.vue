@@ -69,7 +69,10 @@ export default {
             </figure>
             <nav>
                 <ul class="header-list">
-                    <li v-for="(link, i) in links" :key="i"><a :href="`${link.url}`">{{ link.text }}</a></li>
+                    <li v-for="(link, i) in links" :key="i" :class="link.current ? 'current' : ''"><a
+                            :href="`${link.url}`">{{ link.text
+                            }}</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -96,6 +99,10 @@ a {
     height: 100%;
 }
 
+li {
+    border-bottom: 4px solid transparent;
+}
+
 .header-list {
     display: flex;
     align-items: center;
@@ -113,11 +120,11 @@ img {
     height: 80px;
 }
 
-.active {
+.current {
     border-bottom: 4px solid #0282f9;
 }
 
-.active a {
+.current a {
     color: #0282f9;
 }
 
