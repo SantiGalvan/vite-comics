@@ -151,8 +151,6 @@ button {
     cursor: pointer;
 }
 
-.button:active {}
-
 .follow {
     min-height: 100px;
     color: #0282f9;
