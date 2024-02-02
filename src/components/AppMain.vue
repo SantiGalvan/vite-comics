@@ -1,6 +1,9 @@
 <script>
+import MainLinks from './MainLinks.vue';
+
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components: { MainLinks }
 }
 </script>
 
@@ -11,6 +14,9 @@ export default {
         <section id="section-content" class="container">
             <h2> Content goes here </h2>
         </section>
+
+        <!-- Section Links -->
+        <MainLinks />
     </main>
 </template>
 
