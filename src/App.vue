@@ -102,7 +102,7 @@ export default {
 
 <template>
     <AppHeader />
-    <AppMain />
+    <AppMain :books="books" />
     <AppFooter />
 </template>
 
