@@ -1,9 +1,10 @@
 <script>
 import MainLinks from './MainLinks.vue';
+import DcCard from './DcCard.vue';
 
 export default {
     name: 'AppMain',
-    components: { MainLinks }
+    components: { MainLinks, DcCard }
 }
 </script>
 
@@ -11,8 +12,10 @@ export default {
     <main>
 
         <!-- Section Content -->
-        <section id="section-content" class="container">
-            <h2> Content goes here </h2>
+        <section id="section-content">
+            <div class="container">
+                <DcCard />
+            </div>
         </section>
 
         <!-- Section Links -->
